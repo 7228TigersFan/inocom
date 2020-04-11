@@ -36,8 +36,9 @@ class ViewController: UIViewController {
                 Database.database().reference().child("kullanicilar").child(eDevlet).child("Kimlik").observeSingleEvent(of: .value) { (snapshot) in
                 guard let gercekKimlik = snapshot.value as? Int else { return }
                     if (Int(gercekKimlik) == Int(tcKimlik)) {
-                            print("evet")
-                        
+                        let mainVC = self.storyboard?.instantiateViewController(withIdentifier: "MainVC")
+                        mainVC?.modalPresentationStyle = .fullScreen
+                        self.present(mainVC!, animated: false, completion: nil)
                         }
                     else{
                         let alertController = UIAlertController(title: "Hata", message:"Lütfen Tekrar Deneyin", preferredStyle: .alert)

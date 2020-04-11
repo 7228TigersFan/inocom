@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,7 +19,7 @@
                                 <rect key="frame" x="24" y="104" width="327" height="604"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="e-devlet" translatesAutoresizingMaskIntoConstraints="NO" id="fpQ-YM-tvf">
-                                        <rect key="frame" x="107.33333333333334" y="0.0" width="112.33333333333334" height="81"/>
+                                        <rect key="frame" x="107.33333333333334" y="0.0" width="112.33333333333337" height="81"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ihtiyac" translatesAutoresizingMaskIntoConstraints="NO" id="8c5-Cz-x71">
                                         <rect key="frame" x="69.666666666666671" y="91" width="187.66666666666663" height="203"/>
@@ -129,23 +129,71 @@
             </objects>
             <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
         </scene>
-        <!--View Controller-->
+        <!--MainVC-->
         <scene sceneID="G6z-ee-KVB">
             <objects>
-                <viewController storyboardIdentifier="MainVC" id="raa-5e-xha" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainVC" id="raa-5e-xha" customClass="MainVC" customModule="Hizir" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="haX-XH-7Lk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle 155" translatesAutoresizingMaskIntoConstraints="NO" id="gA5-G5-42f">
+                                <rect key="frame" x="-32" y="44" width="439" height="171"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="bottom" spacing="243" translatesAutoresizingMaskIntoConstraints="NO" id="cx2-Ze-4Su">
+                                <rect key="frame" x="16" y="99.000000000000014" width="343.33333333333331" height="60.666666666666671"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Enm-IK-NdK">
+                                        <rect key="frame" x="0.0" y="0.0" width="75.666666666666671" height="60.666666666666664"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hastanesi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w55-Q4-R4E">
+                                                <rect key="frame" x="0.0" y="0.0" width="75.666666666666671" height="20.333333333333332"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gorevi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ujC-pF-VLL">
+                                                <rect key="frame" x="0.0" y="40.333333333333343" width="75.666666666666671" height="20.333333333333329"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KRU-hN-SHq">
+                                        <rect key="frame" x="318.66666666666669" y="40.333333333333343" width="24.666666666666686" height="20.333333333333329"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="gA5-G5-42f" firstAttribute="height" secondItem="haX-XH-7Lk" secondAttribute="height" multiplier="0.210591" id="Il1-Fn-pOz"/>
+                            <constraint firstItem="gA5-G5-42f" firstAttribute="centerX" secondItem="haX-XH-7Lk" secondAttribute="centerX" id="f6w-g9-dWz"/>
+                            <constraint firstItem="cx2-Ze-4Su" firstAttribute="top" secondItem="R90-nu-eUw" secondAttribute="top" constant="55" id="hnc-dP-huz"/>
+                            <constraint firstItem="gA5-G5-42f" firstAttribute="top" secondItem="R90-nu-eUw" secondAttribute="top" id="lS7-i6-weo"/>
+                            <constraint firstItem="R90-nu-eUw" firstAttribute="trailing" secondItem="cx2-Ze-4Su" secondAttribute="trailing" constant="15.67" id="qBE-vl-etF"/>
+                            <constraint firstItem="gA5-G5-42f" firstAttribute="width" secondItem="haX-XH-7Lk" secondAttribute="width" multiplier="1.17067" id="rM9-Ku-azY"/>
+                            <constraint firstItem="cx2-Ze-4Su" firstAttribute="leading" secondItem="R90-nu-eUw" secondAttribute="leading" constant="16" id="vy5-j4-L4K"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="R90-nu-eUw"/>
                     </view>
+                    <connections>
+                        <outlet property="adLabel" destination="KRU-hN-SHq" id="Y8w-6G-ZF2"/>
+                        <outlet property="gorevLabel" destination="ujC-pF-VLL" id="SXw-Wd-FBi"/>
+                        <outlet property="hastaneLabel" destination="w55-Q4-R4E" id="HUb-oQ-CsY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oo7-7W-0Fe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1156" y="137"/>
+            <point key="canvasLocation" x="1156" y="136.69950738916256"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Rectangle 155" width="217.66667175292969" height="102"/>
         <image name="ana" width="150" height="26"/>
         <image name="e-devlet" width="105.66666412353516" height="58.333332061767578"/>
         <image name="girisYapEkrani" width="150" height="26"/>

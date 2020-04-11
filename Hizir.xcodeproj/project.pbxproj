@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		DA42EE612442351100DC64C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA42EE5F2442351100DC64C9 /* Main.storyboard */; };
 		DA42EE632442351200DC64C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA42EE622442351200DC64C9 /* Assets.xcassets */; };
 		DA42EE662442351200DC64C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA42EE642442351200DC64C9 /* LaunchScreen.storyboard */; };
+		DA42EE722442838B00DC64C9 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA42EE712442838B00DC64C9 /* MainVC.swift */; };
 		FF4AB6191A17CE1E0641C433 /* Pods_Hizir.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ADF6C87EE00E6A749DDA9B1 /* Pods_Hizir.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		DA42EE622442351200DC64C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA42EE652442351200DC64C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA42EE672442351200DC64C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA42EE712442838B00DC64C9 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,6 @@
 				8744A4E7AFE17A3C1B008CD1 /* Pods-Hizir.debug.xcconfig */,
 				9D657A4D4BB1F865695E8AD3 /* Pods-Hizir.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -91,6 +92,7 @@
 				DA42EE642442351200DC64C9 /* LaunchScreen.storyboard */,
 				1DBEFB6D2442524A00AA2E64 /* GoogleService-Info.plist */,
 				DA42EE672442351200DC64C9 /* Info.plist */,
+				DA42EE712442838B00DC64C9 /* MainVC.swift */,
 			);
 			path = Hizir;
 			sourceTree = "<group>";
@@ -230,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA42EE5E2442351100DC64C9 /* ViewController.swift in Sources */,
+				DA42EE722442838B00DC64C9 /* MainVC.swift in Sources */,
 				DA42EE5A2442351100DC64C9 /* AppDelegate.swift in Sources */,
 				DA42EE5C2442351100DC64C9 /* SceneDelegate.swift in Sources */,
 			);
