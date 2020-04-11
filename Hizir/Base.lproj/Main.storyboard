@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Hizir" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Twt-Wq-HKg">
+                                <rect key="frame" x="24" y="104" width="327" height="604"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="e-devlet" translatesAutoresizingMaskIntoConstraints="NO" id="fpQ-YM-tvf">
+                                        <rect key="frame" x="107.33333333333334" y="0.0" width="112.33333333333334" height="81"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ihtiyac" translatesAutoresizingMaskIntoConstraints="NO" id="8c5-Cz-x71">
+                                        <rect key="frame" x="69.666666666666671" y="91" width="187.66666666666663" height="203"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="qaL-nV-MR2">
+                                        <rect key="frame" x="0.0" y="304" width="327" height="300"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="ZfU-VL-p0J">
+                                                <rect key="frame" x="0.0" y="0.0" width="327" height="47"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hızır İhtiyaç, Sağlık Bakanlığı bünyesinde tüm sağlık " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qbt-32-6bm">
+                                                        <rect key="frame" x="0.0" y="0.0" width="315" height="15.666666666666666"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="kurumları arasındaki iletişimi ve sağlık kurumlarının " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="grO-Lb-am0">
+                                                        <rect key="frame" x="0.0" y="15.666666666666686" width="309" height="15.666666666666664"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ihtiyaçlarının kendilerine ulaşmasını sağlar." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Li8-AF-g58">
+                                                        <rect key="frame" x="0.0" y="31.333333333333318" width="256" height="15.666666666666668"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="kSf-Vc-6an">
+                                                <rect key="frame" x="0.0" y="77" width="327" height="223"/>
+                                                <subviews>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="TC-Kimlik" textAlignment="center" minimumFontSize="17" background="ana" translatesAutoresizingMaskIntoConstraints="NO" id="4Pz-e2-TV5">
+                                                        <rect key="frame" x="0.0" y="0.0" width="327" height="50"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="2d9-fv-4Gx"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                <integer key="value" value="10"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </textField>
+                                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="E-Devlet Şifresi" textAlignment="center" minimumFontSize="17" background="ana" translatesAutoresizingMaskIntoConstraints="NO" id="luE-Hn-g2Q">
+                                                        <rect key="frame" x="0.0" y="78" width="327" height="50"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="luw-G8-W1I"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                <integer key="value" value="10"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </textField>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="MSu-0F-0lm">
+                                                        <rect key="frame" x="0.0" y="156" width="327" height="67"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3xr-z9-Zcg">
+                                                                <rect key="frame" x="0.0" y="0.0" width="327" height="50"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="50" id="lrH-Hv-rZS"/>
+                                                                </constraints>
+                                                                <state key="normal" title="Giriş Yap" backgroundImage="girisYapEkrani">
+                                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                                <connections>
+                                                                    <action selector="girisYapButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HGF-jb-TvN"/>
+                                                                </connections>
+                                                            </button>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="E-devlet şifrenizi bilmiyorsanız lütfen başhekiminizle irtibata geçiniz" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o7A-AZ-1ve">
+                                                                <rect key="frame" x="0.0" y="55" width="327" height="12"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                                <color key="textColor" red="0.60609471800000003" green="0.110549219" blue="0.1215417162" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <color key="highlightedColor" red="0.60609471800000003" green="0.110549219" blue="0.1215417162" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                            </label>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="8c5-Cz-x71" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="4g2-ba-B7Y"/>
+                            <constraint firstItem="8c5-Cz-x71" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.25" id="8xQ-XF-2yh"/>
+                            <constraint firstItem="Twt-Wq-HKg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="9KK-sO-pl0"/>
+                            <constraint firstItem="fpQ-YM-tvf" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.1" id="9f2-yJ-OXX"/>
+                            <constraint firstItem="Twt-Wq-HKg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GhU-mu-zdA"/>
+                            <constraint firstItem="fpQ-YM-tvf" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.3" id="NVY-d2-vfk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="eDevletTextField" destination="luE-Hn-g2Q" id="kbn-2V-gSb"/>
+                        <outlet property="tcKimlikTextField" destination="4Pz-e2-TV5" id="JzS-yD-bTw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="G6z-ee-KVB">
+            <objects>
+                <viewController storyboardIdentifier="MainVC" id="raa-5e-xha" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="haX-XH-7Lk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="R90-nu-eUw"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oo7-7W-0Fe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1156" y="137"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ana" width="150" height="26"/>
+        <image name="e-devlet" width="105.66666412353516" height="58.333332061767578"/>
+        <image name="girisYapEkrani" width="150" height="26"/>
+        <image name="ihtiyac" width="113" height="113"/>
+    </resources>
+</document>
